@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# print multiples of 10
-for ((i=0; i<10; i++))
+# To display "Best School" 10 times
+for  (( i=0; i<10; i++ )) 
 do
-	echo "BestSchool"
-one
+	  echo "Best School"
+done
