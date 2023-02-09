@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #print multiples 10
-while ((i=0; i<10; i++))
+count=0
+while [$count<10;]
 do
 	echo "Best school"
+	((count++))
 done
