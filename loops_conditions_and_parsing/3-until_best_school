@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #print multiples 10
 count=0
-until [ $count -ge 10 ]
+until [ $count -eq 10 ]
 do
-	echo"Best School"
-	((count++))
+	echo "Best School"
+	(( count++ ))
 done
