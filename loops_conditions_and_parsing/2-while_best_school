@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-#print multiple times
-x=1
-while [ $x -le 10 ]
+#print multiples 10
+while (( 1=0; i<10 I++))
 do
-	echo "Best School $x times"
-	x=$(( $x + 0 ))
+	echo "Best school"
 done
