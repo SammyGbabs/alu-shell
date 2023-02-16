@@ -26,7 +26,7 @@ killLoop_n_rmFile()
 	sudo pkill -f "./manage_my_process"
 /	rm "$tmpfile"
 }
-do "$argv1" in
+case "$argv1" in
 	start) echo "manage_my_process started"
 		startLoop_n_createFile
 		;;
@@ -39,4 +39,4 @@ do "$argv1" in
 		;;
 	*) echo "Usage: manage_my_process {start|stoprestart}"
 		;;
-done
+esac
