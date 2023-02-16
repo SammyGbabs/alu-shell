@@ -37,6 +37,6 @@ case "$argv1" in
 		killLoop_n_rmFile
 		startLoop_n_createFile
 		;;
-	*) echo "Usage: manage_my_process {start|stoprestart}"
+	*) echo "Usage: manage_my_process {start|stop|restart}"
 		;;
 esac
